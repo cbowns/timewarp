@@ -1,0 +1,6 @@
+{
+	"mode": "safe",
+    "log": "timewarp.log", 
+    "threshold": 50000,
+    "volume": "/Volumes/WorkTimeMachine/Backups.backupdb/Floatie/"
+}
