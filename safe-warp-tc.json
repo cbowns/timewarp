@@ -1,5 +1,5 @@
 {
-	"mode": "safe",
+    "mode": "safe",
     "log": "timewarp.log", 
     "threshold": 25000,
     "volume": "/Volumes/Time Machine Backups/Backups.backupdb/Floatie/"
