@@ -1,5 +1,5 @@
 {
     "mode": "safe",
-    "threshold": 25000,
+    "threshold": 50000,
     "volume": "/Volumes/Time Machine Backups/Backups.backupdb/Floatie/"
 }
