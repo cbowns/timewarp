@@ -1,5 +1,5 @@
 {
-    "mode": "safe",
+    "mode": "live",
     "threshold": 150000,
     "volume": "/Volumes/WorkTimeMachine/Backups.backupdb/Floatie/"
 }
