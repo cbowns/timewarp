@@ -215,10 +215,17 @@ def handler(**kwargs):
             bup_name = os.path.join(volume, bup_name)
             if l is not False:
                 l.info(bup_name)
+    # Live mode:
     else:
+        print '\nTime Warp is running in **LIVE MODE**'
+        print '=====================================\n'
+        print 'Deleted the following backups:\n'
         while free < threshold and len(get_bups(volume)) > 0:
             bups = get_bups(volume)
             bup_name = timewarp(volume, bups, threshold, mode)
+            print bup_name
+            if l is not False:
+                l.info(bup_name)
             free = df(volume)
 
 
