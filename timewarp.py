@@ -188,9 +188,11 @@ def validate_config(**kwargs):
             l = kwargs.get('log', False)
             if l is not False:
                 l = logger(l)
+        else:
+            print "Time Machine volume doesn't exist at ", volume
         return volume, mode, threshold, l
-    except:
-        print "\nThe config file is mis-configured.\n"
+    except Exception as inst:
+        print "The config file is mis-configured."
     sys.exit(0)
 
 
